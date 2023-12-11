@@ -24,3 +24,7 @@ try {
 
 $rectProduct = new ProductRect("rectangle", 456.5, 78, 52);
 var_dump($rectProduct);
+
+
+$circProduct = new ProductCirc("circular", 10.0, 87);
+var_dump($circProduct);

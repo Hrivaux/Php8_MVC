@@ -3,11 +3,12 @@ require_once __DIR__ . "/Product.php";
 
 class ProductCirc extends Product
 {
-    private int $diameter;
+
 
     public function __construct(
         string $name,
-        float $priceVatFree
+        float $priceVatFree,
+        private int $diameter
     ) {
         parent::__construct($name, $priceVatFree);
     }
